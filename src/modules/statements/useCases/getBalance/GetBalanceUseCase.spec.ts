@@ -7,6 +7,7 @@ import { GetBalanceError } from './GetBalanceError';
 enum OperationType {
   DEPOSIT = 'deposit',
   WITHDRAW = 'withdraw',
+  TRANSFER= 'transfer'
 }
 
 let usersRepository : InMemoryUsersRepository;

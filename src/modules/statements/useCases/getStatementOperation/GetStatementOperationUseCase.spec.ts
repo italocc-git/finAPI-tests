@@ -6,6 +6,7 @@ import { GetStatementOperationError } from "./GetStatementOperationError";
 enum OperationType {
   DEPOSIT = 'deposit',
   WITHDRAW = 'withdraw',
+  TRANSFER= 'transfer'
 }
 
 let usersRepository : InMemoryUsersRepository;
