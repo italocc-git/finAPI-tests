@@ -2,32 +2,32 @@
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/italocc-git/finAPI-tests/blob/main/LICENSE) 
 
-finAPI é uma API de finanças criada com NodeJS onde o usuário pode criar operações simples de contas bancárias como: saque , depósito e extrato.
-Além da API , foram criados testes unitários e testes de integração utilizando a biblioteca Jest e Supertest respectivamente.
+finAPI is a finance API created with NodeJS where the user can create simple bank account operations such as: withdrawal, deposit and statement.
+In addition to the API, unit tests and integration tests were created using the Jest and Supertest libraries respectively.
 
-## Requisitos Funcionais 
+## Functional Requirements
 
 <ul>
-  <li>Deve ser possivel Criar uma conta. </li>
-  <li>Deve ser possivel buscar o extrato bancário do Cliente.</li>
-  <li>Deve ser possivel Realizar um depósito. </li>
-  <li>Deve ser possivel realizar um saque.</li>
-  <li>Deve ser possivel obter dados da conta do cliente.</li>
-  <li>Deve ser possivel obter o saldo da conta.</li>
+  <li>It should be possible to create an account. </li>
+   <li>It must be possible to fetch the Customer's bank statement.</li>
+   <li>It must be possible to make a deposit. </li>
+   <li>It must be possible to perform a withdrawal.</li>
+   <li>It must be possible to get customer account data.</li>
+   <li>It should be possible to get the account balance.</li>
  </ul>
  
- ## Regras de negócio
+ ## Business rules
  
  <ul>
-  <li> Não deve ser possivel cadastrar uma conta com email já existente. </li>
-  <li> Não deve ser possivel fazer depósito em uma conta não existente. </li>
-  <li> Não deve ser possivel buscar extrato em uma conta não existente. </li>
-  <li> Não deve ser possivel fazer um saque em uma conta não existente. </li>
-  <li> Não deve ser possivel fazer saque quando o saldo for insuficiente. </li>
+  <li> It should not be possible to register an account with an existing email address. </li>
+   <li> It must not be possible to deposit into a non-existing account. </li>
+   <li> It must not be possible to fetch a statement from a non-existing account. </li>
+   <li> It must not be possible to withdraw money to a non-existing account. </li>
+   <li> It should not be possible to withdraw when the balance is insufficient. </li>
   
  </ul>
  
- # Tecnologias utilizadas 
+ # Technologies
  
  ## Backend :
  <li> Bscryptjs |jsonwebtoken </li>
@@ -38,29 +38,29 @@ Além da API , foram criados testes unitários e testes de integração utilizan
  <li> Uuid </li>
  <li> cors </li>
  
- # Como executar o projeto
+ # How to run the project
  
- Pré-requisitos: npm / yarn
+ Prerequisites: npm / yarn
 
 ```bash
-# clonar repositório
+# clone the repository
 git clone https://github.com/italocc-git/finAPI-tests.git
 
-# entrar na pasta do projeto finAPI-tests
+# enter the project folder called 'finAPI-tests'
 cd finAPI-tests
 
-# instalar dependências
+# install dependencies
 yarn install / npm install
 
-# executar o projeto
+# run the project
 yarn dev / npm run dev
 
-# executar os testes
+# run the tests
 yarn test / npm run test
 
 ```
  
-# Autor
+# Author
 
 Italo Costa Cavalcante
 
